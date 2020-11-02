@@ -108,6 +108,7 @@ class extract:
 
 ### exeQ is the execution statement of query and countQ is the count statement of the exeQ .###
 ### oradb is oracle db , orapass is oracle password , orahost is oracle db host , datadirpath is the path in which the file has to be saved, filename is the final csv filename
+### thrd is the thread count 
 #exeQ = """ select %s from %s  """ % (col_nm, full_tab_nm)
 #countQ = """ select count(*) from %s  """ % (full_tab_nm)
 #extract(countQ=countQ, exeQ=exeQ, thrd=4, oradb=oradb, orapass=orapass, orahost=orahost, datadirpath=datadirpath, filename=filename)
